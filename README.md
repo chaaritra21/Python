@@ -1,1 +1,1 @@
-A repository for Python Practice
+A repository for python practice.
