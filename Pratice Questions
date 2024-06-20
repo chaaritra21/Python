@@ -59,5 +59,33 @@ def is_leap(year):
     else:
    return False
 
-Q6.
+Q6. Without using any string methods, try to print the following:
+Note that "" represents the consecutive values in between.
+Example
+Print the string .
+
+if __name__ == '__main__':
+    n = int(input())
+    i = 0
+while i < n:
+    i = i+1
+    print(i, end="")
+
+Q7. Let's learn about list comprehensions! You are given three integers  and  representing the dimensions of a cuboid along with an integer . Print a list of all possible coordinates given by  on a 3D grid where the sum of  is not equal to . Here, . Please use list comprehensions rather than multiple loops, as a learning exercise.
+
+   x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+coordinates = [
+    [i, j, k]
+    for i in range(x + 1)
+    for j in range(y + 1)
+    for k in range(z + 1)
+    if i + j + k != n
+]
+
+print(coordinates)
+
+Q8. 
 
