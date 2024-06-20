@@ -1,0 +1,63 @@
+Q1.You can just as easily store a string as a variable and then print it to stdout:
+
+my_string = "Hello, World!"
+print(my_string)
+
+Q2.Given an integer, , perform the following conditional actions:
+If  is odd, print Weird
+If  is even and in the inclusive range of  to , print Not Weird
+If  is even and in the inclusive range of  to , print Weird
+If  is even and greater than , print Not Weird
+
+n = int(input())
+if n%2 != 0 :
+    print("Weird")
+elif n%2==0 and 2<=n<=5 :
+    print("Not Weird")
+elif n%2==0 and 6<=n<=20 :
+    print("Weird")
+elif n%2==0 and n>20 :
+    print("Not Weird")
+else :
+    print("Not in the list")
+
+Q3.The provided code stub reads two integers from STDIN,  and . Add code to print three lines where:
+The first line contains the sum of the two numbers.
+The second line contains the difference of the two numbers (first - second).
+The third line contains the product of the two numbers.
+
+a = int(input())
+b = int(input())
+print(a+b)
+print(a-b)
+print(a*b)
+
+
+Q4The provided code stub reads two integers,  and , from STDIN.
+Add logic to print two lines. The first line should contain the result of integer division,  // . The second line should contain the result of float division,  / .
+
+a = int(input())
+b = float(input())
+print(a//b)
+print(a/b)
+
+Q5.An extra day is added to the calendar almost every four years as February 29, and the day is called a leap day. It corrects the calendar for the fact that our planet takes approximately 365.25 days to orbit the sun. A leap year contains a leap day
+In the Gregorian calendar, three conditions are used to identify leap years:
+The year can be evenly divided by 4, is a leap year, unless:
+The year can be evenly divided by 100, it is NOT a leap year, unless:
+The year is also evenly divisible by 400. Then it is a leap year.
+Given a year, determine whether it is a leap year. If it is a leap year, return the Boolean True, otherwise return False.
+
+Sol-
+def is_leap(year):
+    if year % 400 == 0:
+        return True
+    if year % 100 == 0:
+        return False
+    if year % 4 == 0:
+        return True
+    else:
+   return False
+
+Q6.
+
