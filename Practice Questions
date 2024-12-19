@@ -1,0 +1,17 @@
+Q1.find the smallest number in an array.
+Using min function:-
+
+numbers = [3, 1, 4, 1, 5, 9, -2, 6, 5]
+smallest_number = min(numbers)
+print("The smallest number in the array is:", smallest_number)
+
+Using Iteration Method
+numbers = [3, 1, 4, 1, 5, 9, -2, 6, 5]
+smallest_number = number[0]
+  for num in numbers:
+    if num< smallest_numbers
+    smallest_number = num
+print("The smallest number in the array is:",smallest_numebers)
+
+Q2.
+
